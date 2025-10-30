@@ -5,7 +5,7 @@ The purpose of this collection of scripts is to automate status checking and sta
 ## Files
 
 The file tree as follows: 
-
+```text
 .automate missing lists/
     ├── executables/
     │   ├── coords.bat
@@ -32,7 +32,7 @@ The file tree as follows:
     ├── installs.txt
     ├── README.md
     └── results.csv #OUTPUT FILE
-
+```
 
 
 ## Installs
