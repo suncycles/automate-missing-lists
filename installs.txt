@@ -1,0 +1,8 @@
+pyautogui
+pyperclip
+pandas
+requests
+pygetwindow
+opencv-python
+pyscreeze
+pillow
