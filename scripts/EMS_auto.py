@@ -34,7 +34,7 @@ STATUS_BOX=config["STATUS_BOX"]
 FILTER_EDIT=config["FILTER_EDIT"]
 
 # 
-with open("../barcodes.csv", "r") as f:
+with open("BARCODES_FILE", "r") as f: 
         barcodes = [line.strip() for line in f if line.strip()]
 results = {}
 

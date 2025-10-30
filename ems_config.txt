@@ -1,5 +1,5 @@
 APP_TITLE=EMS Control Center
-BARCODES_FILE=../barcodes.csv
+BARCODES_FILE=../barcodes.txt
 OUTPUT_FILE=../results/EMS_Search.json
 STATUS_BOX=(220,220)
 FILTER_EDIT=(242,165)

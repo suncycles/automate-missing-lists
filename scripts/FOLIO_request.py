@@ -2,13 +2,13 @@ import requests
 import json
 import os
 
-BARCODES_FILE = "../barcodes.csv"
+BARCODES_FILE = "../barcodes.txt"
 
 # Folio token 
 TOKEN_FILE = os.path.join(os.path.dirname(__file__), "../FOLIO_TOKEN.txt")
 
 # Read access token safely
-try:
+try:    
     with open(TOKEN_FILE, "r") as f:
         ACCESS_TOKEN = f.read().strip()
 except FileNotFoundError:

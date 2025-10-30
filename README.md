@@ -24,7 +24,7 @@ automate missing lists/
     │   ├── config_pointer_coords.py
     │   ├── EMS_auto.py
     │   └── FOLIO_request.py
-    ├── barcodes.csv #INPUT FILE
+    ├── barcodes.txt #INPUT FILE
     ├── config_ems_coords.png
     ├── config_token_location.png
     ├── ems_config.txt
@@ -43,7 +43,7 @@ automate missing lists/
 	- If this fails, ensure pip is installed. Run the python installer again and click **Modify**. Here you can see if pip is installed before running again.
 
 ## Setup
-- Paste barcodes into barcodes.csv. It is intended to read them as a column, pasted directly from a spreadsheet. Do not include a heading column title. 
+- Paste barcodes into barcodes.txt. It is intended to read them as a column, pasted directly from a spreadsheet. Do not include a heading column title. 
 
 ## FOLIO Operation Instructions
 **Requirements**: Working log in to SCU  [FOLIO](https://scu.folio.indexdata.com/)
