@@ -6,7 +6,7 @@ The purpose of this collection of scripts is to automate status checking and sta
 
 The file tree as follows: 
 
-automate missing lists/
+.automate missing lists/
     ├── executables/
     │   ├── coords.bat
     │   ├── installs.bat
